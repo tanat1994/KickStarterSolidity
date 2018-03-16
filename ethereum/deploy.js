@@ -1,6 +1,6 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
-const compiledFactory = require('../build/CampaignFactory.json'); //Compile only Factory
+const compiledFactory = require('../ethereum/build/CampaignFactory.json'); //Compile only Factory
 
 const provider = new HDWalletProvider(
   'decrease agree prison sure little obvious until pass traffic uncover door universe',
