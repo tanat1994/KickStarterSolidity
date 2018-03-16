@@ -29,6 +29,7 @@ class CampaignNew extends Component {
     {this.setState({loading: false})};
 
   }
+  
   render () {
     return (
       <Layout>
