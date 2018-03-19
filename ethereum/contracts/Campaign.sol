@@ -29,7 +29,7 @@ contract Campaign {
     uint public minimumContribution;
     //address[] public approvers; //Use a lot of GAS to loop
     mapping(address=>bool) public approvers;
-    uint approversCount;
+    uint public approversCount;
 
     modifier restricted () {
         require (msg.sender == manager);
